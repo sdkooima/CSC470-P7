@@ -23,17 +23,17 @@ namespace P5
                 
             }
         }
-
+        /*
         public string Add(Issue issue)
         {
 
         }
-
+        */
         public List<Issue> GetAll(int ProjectId)
         {
             return _Issues;
         }
-
+        /*
         public bool Remove(Issue issue)
         {
 
@@ -63,7 +63,7 @@ namespace P5
         {
 
         }
-
+        */
         public int GetTotalNumberOfIssues(int ProjectId)
         {
             int count = 0;
@@ -74,10 +74,11 @@ namespace P5
             }
             return count;
         }
-
+        /*
         public Issue GetIssueById(int Id)
         {
 
         }
+        */
     }
 }

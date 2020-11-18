@@ -29,7 +29,7 @@ namespace P5
 
         private void FormIssueDashboard_Load(object sender, EventArgs e)
         {
-            label2 = _issueRepository.GetTotalNumberOfIssues(_SelectedProjectId).ToString;
+            //label2 = _issueRepository.GetTotalNumberOfIssues(_SelectedProjectId).ToString;
         }
     }
 }

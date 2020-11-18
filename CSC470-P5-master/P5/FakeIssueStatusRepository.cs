@@ -14,6 +14,7 @@ namespace P5
         {
 
         }
+        /*
         public List<IssueStatus> GetAll()
         {
 
@@ -26,5 +27,6 @@ namespace P5
         {
 
         }
+        */
     }
 }
